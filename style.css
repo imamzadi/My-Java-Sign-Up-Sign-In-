@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fantasy ,sans-serif;
+  
+}
+
+body{
+   width: 100vw;
+   height: 100vh;
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ /* container */
+
+.container{
+      width: 700px;
+      height: 800px;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter:blur(10px);
+
+
+      border-radius: 40px;
+      border: 3px solid rgba(255, 255, 255, 0,3);
+
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+     background: url(bg\ img.jpg)no-repeat;
+     background-position: center;
+     background-size: cover;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+}
+
+
+ /* heading 2 */
+      
+h2{
+
+      color: #fff;
+      text-transform: uppercase;
+      padding: 20px 0;
+      font-size: 3em;
+
+}
+
+ /* form group */
+
+
+.form-group{
+      width: 330px;
+      margin: 3% 0;
+      position: relative;
+      border-bottom: 3px solid #fff;
+      
+
+
+}
+
+ /* form group input */
+
+.form-group input{
+  width: 100%;
+  height: 50%;
+  background: transparent;
+  border: none;
+  font-size: 1.2em;
+  color: #fff;
+  padding: 0 40px 0 10px;
+
+
+}
+
+ /* form group label */
+
+.form-group label {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-85%);
+      color: #fff;
+      padding: 10px;
+      transition: 0.5s;
+      font-size: 20px;
+      
+}
+
+input:focus ~ label
+input:valid ~ label{
+top: -30px;
+}
+
+
+
+ /* form group icon */
+
+.form-group i{
+      position: absolute;
+      top: 60%;
+      right: 30px;
+      transform: translateY(-50%);
+      color: black;
+      font-size: 1.2em;
+}
+
+ /* paragraph */
+
+p{
+      text-align: center;
+      color: #fff;
+      padding: 10px 0;
+      font-size: 20px;
+      font-weight: 100;
+}
+
+ /* paragraph child a */
+
+p a{
+
+      color: #fff;
+      text-decoration: none;
+      font-weight: 100;
+      font-size: 30px;
+}
+
+
+ /* paragrapg hover */
+
+
+p a:hover{
+      
+      color: pink;
+      text-decoration: underline;
+      font-style: italic;
+      font-size: 30px;
+}
+ 
+ /* button signup */
+
+#btn{
+ width: 60%;
+ height: 50px;
+ border-radius: 40px;
+ border: none;
+ font-size: 1.5em;
+ text-transform: uppercase;
+ font-weight: 600;
+ margin: 10px 0;
+ cursor: pointer;
+ transition: 0.5s;
+
+
+}
+
+#btn:hover{
+ background: rgba(0, 0, 0, 0.3);
+ color: #fff;
+}
+  
+  
+ /* signin button */
+
+.btn{
+      width: 60%;
+      height: 50px;
+      border-radius: 40px;
+      border: none;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 10px 0;
+      cursor: pointer;
+      transition: 0.5s;
+}
+
+.btn:hover{
+      background: rgba(0, 0, 0, 0.3);
+      color: #fff;
+}
+
+ /* Wellcome page */
+
+h1{
+      
+  width: 30%;
+  height: 25%;
+  padding: 10px;
+  border: 5px solid black;
+  background-color: aqua;
+
+      
+}
